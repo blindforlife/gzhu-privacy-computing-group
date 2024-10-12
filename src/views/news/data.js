@@ -35,6 +35,13 @@ export const newsList = [
     url: ''
   },
   {
+    time: 'Feb 5, 2024',
+    title: 'Paper accepted by TOPS 2024',
+    content: '',
+    category: ['paper'],
+    url: ''
+  },
+  {
     time: 'Jan 1, 2024',
     title: '2 Papers accepted by TIFS',
     content: '',
@@ -42,10 +49,10 @@ export const newsList = [
     url: 'https://www.antdv.com/components/tag'
   },
   {
-    time: 'Dec 25, 2023',
-    title: 'Some activities',
+    time: 'Nov 10, 2023',
+    title: 'Paper accepted by CSUR 2023',
     content: '',
-    category: ['activity'],
+    category: ['paper'],
     url: ''
   },
   {

@@ -16,10 +16,10 @@ export const projectCategory = {
 export const projectList = [
   {
     time: '2024-06-12',
-    title: 'Secret-Shared Shuffle with Malicious Security',
+    title: '国家自然基金面上项目：多方机器学习中推理攻击与防御研究',
     name: 'project-1',
-    subtitle: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
-    category: 'secure_computing',
+    subtitle: '621009',
+    category: 'ai_security',
     description: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024. In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
     image: 'project-image.png',
     md: 'test',
@@ -27,10 +27,10 @@ export const projectList = [
   },
   {
     time: '2024-06-12',
-    title: 'Secret-Shared Shuffle with Malicious Security',
+    title: '国家自然科学基金面上项目：可信执行环境下隐私保护的检索增强大模型生成',
     name: 'project-2',
-    subtitle: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
-    category: 'ai_security',
+    subtitle: '62472116',
+    category: 'reliable',
     description: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024. In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
     image: 'project-image.png',
     md: 'test',

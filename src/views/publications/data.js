@@ -89,7 +89,7 @@ export const publications = [
     title: 'Defenses to Membership Inference Attacks: A Survey',
     writer: 'Li Hu, Anli Yan, Hongyang Yan, Jin Li, Teng Huang, Yingying Zhang,  Changyu Dong, and Chunsheng Yang',
     subtitle: 'ACM Comput. Surv., 2024',
-    abbr: 'CSUR',
+    abbr: 'ACM',
     tags: [
       {
         ...TAGS.pdf,

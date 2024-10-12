@@ -23,14 +23,14 @@
             <template #description>
               <div class="desc">
                 <div style="color: rgba(0, 0, 0, 0.88)">{{staff.desc}}</div>
-                <div v-if="staff.content">{{staff.content}}</div>
+                <div v-if="staff.content" v-html="staff.content.replace(/\n/g, '<br>')"></div>
               </div>
               <div class="footer">
                 <div v-if="staff.email" style="color: #1677ff">
                   <MailOutlined style="margin-right: 6px" />
                   {{staff.email}}
                 </div>
-                <div v-if="staff.url" style="16px; color: #1677ff">
+                <div v-if="staff.url" style="font-size: 16px; color: #1677ff">
                   <HomeOutlined style="margin-right: 6px" />
                   <a :href="staff.url" target="_blank">{{staff.url}}</a>
                 </div>
