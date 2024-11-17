@@ -25,7 +25,7 @@
         >
           <template #bodyCell="{ column, record }">
             <template v-if="column.key === 'abbr'">
-              <a-tag :color="ABBR[record.abbr]">{{record.abbr}}</a-tag>
+              <a-tag :color="getColor(record.abbr)">{{ record.abbr }}</a-tag>
             </template>
             <template v-else-if="column.key === 'year'">
               <div class="year-col">{{record.year}}</div>
@@ -106,7 +106,18 @@ const changeYear = ({selectedKeys}) => {
 
 <script>
 export default {
-  name: "Publications"
+  name: "Publications",
+  methods: {
+    getColor(abbr) {
+      for (const category in ABBR) {
+        if (ABBR[category].conferences.includes(abbr)) {
+          return ABBR[category].color; // 返回对应类别的颜色
+        }
+      }
+      return null; // 默认颜色
+    }
+  }
+
 }
 </script>
 

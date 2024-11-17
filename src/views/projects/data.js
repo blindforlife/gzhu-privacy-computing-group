@@ -36,61 +36,61 @@ export const projectList = [
     md: 'test',
     labels: ['label 2']
   },
-  {
-    time: '2024-06-12',
-    title: 'Secret-Shared Shuffle with Malicious Security',
-    name: 'project-3',
-    subtitle: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
-    category: 'ai_security',
-    description: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024. In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
-    image: 'project-image.png',
-    md: 'test',
-    labels: ['label 3']
-  },
-  {
-    time: '2024-06-12',
-    title: 'Secret-Shared Shuffle with Malicious Security',
-    name: 'project-4',
-    subtitle: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
-    category: 'differential_privacy',
-    description: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024. In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
-    image: 'project-image.png',
-    md: 'test',
-    labels: ['label 4']
-  },
-  {
-    time: '2024-06-12',
-    title: 'Secret-Shared Shuffle with Malicious Security',
-    name: 'project-5',
-    subtitle: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
-    category: 'differential_privacy',
-    description: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024. In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
-    image: 'project-image.png',
-    md: 'test',
-    labels: ['label 5']
-  },
-  {
-    time: '2024-06-12',
-    title: 'Secret-Shared Shuffle with Malicious Security',
-    name: 'project-6',
-    subtitle: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
-    category: 'differential_privacy',
-    description: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024. In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
-    image: 'project-image.png',
-    md: 'test',
-    labels: ['label 2']
-  },
-  {
-    time: '2024-06-12',
-    title: 'Secret-Shared Shuffle with Malicious Security',
-    name: 'project-7',
-    subtitle: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
-    category: 'differential_privacy',
-    description: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024. In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
-    image: 'project-image.png',
-    md: 'test',
-    labels: ['label 2']
-  },
+  // {
+  //   time: '2024-06-12',
+  //   title: 'Secret-Shared Shuffle with Malicious Security',
+  //   name: 'project-3',
+  //   subtitle: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
+  //   category: 'ai_security',
+  //   description: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024. In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
+  //   image: 'project-image.png',
+  //   md: 'test',
+  //   labels: ['label 3']
+  // },
+  // {
+  //   time: '2024-06-12',
+  //   title: 'Secret-Shared Shuffle with Malicious Security',
+  //   name: 'project-4',
+  //   subtitle: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
+  //   category: 'differential_privacy',
+  //   description: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024. In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
+  //   image: 'project-image.png',
+  //   md: 'test',
+  //   labels: ['label 4']
+  // },
+  // {
+  //   time: '2024-06-12',
+  //   title: 'Secret-Shared Shuffle with Malicious Security',
+  //   name: 'project-5',
+  //   subtitle: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
+  //   category: 'differential_privacy',
+  //   description: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024. In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
+  //   image: 'project-image.png',
+  //   md: 'test',
+  //   labels: ['label 5']
+  // },
+  // {
+  //   time: '2024-06-12',
+  //   title: 'Secret-Shared Shuffle with Malicious Security',
+  //   name: 'project-6',
+  //   subtitle: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
+  //   category: 'differential_privacy',
+  //   description: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024. In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
+  //   image: 'project-image.png',
+  //   md: 'test',
+  //   labels: ['label 2']
+  // },
+  // {
+  //   time: '2024-06-12',
+  //   title: 'Secret-Shared Shuffle with Malicious Security',
+  //   name: 'project-7',
+  //   subtitle: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
+  //   category: 'differential_privacy',
+  //   description: 'In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024. In 31st Annual Network and Distributed System Security Symposium (NDSS 2024), 2024',
+  //   image: 'project-image.png',
+  //   md: 'test',
+  //   labels: ['label 2']
+  // },
 
 ]
 

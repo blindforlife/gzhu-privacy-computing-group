@@ -6,9 +6,18 @@ export const pageBanner = {
 }
 
 export const ABBR = {
-  NDSS: '#2db7f5',
-  TOPS: '#87d068',
-  TIFS: '#108ee9'
+  A: {
+    color: '#2db7f5', // A类的颜色
+    conferences: ['NDSS', 'TOPS','IJCAI','CSUR','ICDE','VLDB','INFOCOM','TDSC','TIFS','TMC','TPDS','TKDE','TSC'] // A类的会议简称
+  },
+  B: {
+    color: '#87d068', // B类的颜色
+    conferences: ['TMM','IS','ICASSP','ESORICS','ICDM'] // B类的会议简称
+  },
+  C: {
+    color: '#108ee9', // C类的颜色
+    conferences: ['AsiaCCS','ACNS','IJIS','SOUPS','FC','Neurocomputing'] // C类的会议简称，可以添加更多
+  }
 }
 
 export const publications = [
@@ -89,7 +98,7 @@ export const publications = [
     title: 'Defenses to Membership Inference Attacks: A Survey',
     writer: 'Li Hu, Anli Yan, Hongyang Yan, Jin Li, Teng Huang, Yingying Zhang,  Changyu Dong, and Chunsheng Yang',
     subtitle: 'ACM Comput. Surv., 2024',
-    abbr: 'ACM',
+    abbr: 'CSUR',
     tags: [
       {
         ...TAGS.pdf,
@@ -246,24 +255,24 @@ export const publications = [
     ],
     labels: ['label 1', 'label 2']
   },
-  {
-    year: '2024',
-    title: '',
-    writer: '',
-    subtitle: '',
-    abbr: 'NDSS',
-    tags: [
-      {
-        ...TAGS.pdf,
-        url: '@/assets/pdf/'
-      },
-      {
-        ...TAGS.html,
-        url: ''
-      }
-    ],
-    labels: ['label 1', 'label 2']
-  },
+  // {
+  //   year: '2024',
+  //   title: '',
+  //   writer: '',
+  //   subtitle: '',
+  //   abbr: 'NDSS',
+  //   tags: [
+  //     {
+  //       ...TAGS.pdf,
+  //       url: '@/assets/pdf/'
+  //     },
+  //     {
+  //       ...TAGS.html,
+  //       url: ''
+  //     }
+  //   ],
+  //   labels: ['label 1', 'label 2']
+  // },
 
   {
     year: '2023',
@@ -306,7 +315,7 @@ export const publications = [
     title: 'The influence of explanation designs on user understanding differential privacy and making data-sharing decision',
     writer: 'Zikai Alex Wen, Jingyu Jia, Hongyang Yan, Yaxing Yao, Zheli Liu, and Changyu Dong',
     subtitle: 'Information Sciences, 2023',
-    abbr: 'Inf. Sci.',
+    abbr: 'IS',
     tags: [
       {
         ...TAGS.pdf,
@@ -324,7 +333,7 @@ export const publications = [
     title: 'Explanation leaks: Explanation-guided model extraction attacks',
     writer: 'Anli Yan, Teng Huang, Lishan Ke, Xiaozhang Liu, Qi Chen, and Changyu Dong',
     subtitle: 'Information Sciences, 2023',
-    abbr: 'Inf. Sci.',
+    abbr: 'IS',
     tags: [
       {
         ...TAGS.pdf,
@@ -342,7 +351,7 @@ export const publications = [
     title: 'Total variation distance privacy: Accurately measuring inference attacks and improving utility',
     writer: 'Jingyu Jia, Chang Tan, Zhewei Liu, Xinhao Li, Zheli Liu, Siyi Lv, and Changyu Dong',
     subtitle: 'Information Sciences, 2023',
-    abbr: 'Inf. Sci.',
+    abbr: 'IS',
     tags: [
       {
         ...TAGS.pdf,
@@ -535,24 +544,24 @@ export const publications = [
     ],
     labels: ['label 1', 'label 2']
   },
-  {
-    year: '2023',
-    title: '',
-    writer: '',
-    subtitle: '',
-    abbr: '',
-    tags: [
-      {
-        ...TAGS.pdf,
-        url: '@/assets/pdf/'
-      },
-      {
-        ...TAGS.html,
-        url: ''
-      }
-    ],
-    labels: ['label 1', 'label 2']
-  },
+  // {
+  //   year: '2023',
+  //   title: '',
+  //   writer: '',
+  //   subtitle: '',
+  //   abbr: '',
+  //   tags: [
+  //     {
+  //       ...TAGS.pdf,
+  //       url: '@/assets/pdf/'
+  //     },
+  //     {
+  //       ...TAGS.html,
+  //       url: ''
+  //     }
+  //   ],
+  //   labels: ['label 1', 'label 2']
+  // },
 
   {
     year: '2022',
@@ -704,7 +713,7 @@ export const publications = [
     title: 'Federated synthetic data generation with differential privacy',
     writer: 'Bangzhou Xin, Yangyang Geng, Teng Hu, Sheng Chen, Wei Yang, Shaowei Wang, Liusheng Huang',
     subtitle: 'Neurocomputing, 2022',
-    abbr: 'IJON',
+    abbr: 'Neurocomputing',
     tags: [
       {
         ...TAGS.pdf,
@@ -753,24 +762,24 @@ export const publications = [
     ],
     labels: ['label 1', 'label 2']
   },
-  {
-    year: '2022',
-    title: '',
-    writer: '',
-    subtitle: '',
-    abbr: 'NDSS',
-    tags: [
-      {
-        ...TAGS.pdf,
-        url: '@/assets/pdf/'
-      },
-      {
-        ...TAGS.html,
-        url: ''
-      }
-    ],
-    labels: ['label 1', 'label 2']
-  },
+  // {
+  //   year: '2022',
+  //   title: '',
+  //   writer: '',
+  //   subtitle: '',
+  //   abbr: 'NDSS',
+  //   tags: [
+  //     {
+  //       ...TAGS.pdf,
+  //       url: '@/assets/pdf/'
+  //     },
+  //     {
+  //       ...TAGS.html,
+  //       url: ''
+  //     }
+  //   ],
+  //   labels: ['label 1', 'label 2']
+  // },
 
   {
     year: '2021',
@@ -916,23 +925,23 @@ export const publications = [
     ],
     labels: ['label 1', 'label 2']
   },
-  {
-    year: '2021',
-    title: '',
-    writer: '',
-    subtitle: '',
-    abbr: 'NDSS',
-    tags: [
-      {
-        ...TAGS.pdf,
-        url: '@/assets/pdf/'
-      },
-      {
-        ...TAGS.html,
-        url: ''
-      }
-    ],
-    labels: ['label 1', 'label 2']
-  },
+  // {
+  //   year: '2021',
+  //   title: '',
+  //   writer: '',
+  //   subtitle: '',
+  //   abbr: 'NDSS',
+  //   tags: [
+  //     {
+  //       ...TAGS.pdf,
+  //       url: '@/assets/pdf/'
+  //     },
+  //     {
+  //       ...TAGS.html,
+  //       url: ''
+  //     }
+  //   ],
+  //   labels: ['label 1', 'label 2']
+  // },
 
 ]
